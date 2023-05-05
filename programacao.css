@@ -115,3 +115,27 @@ footer {
     height: 200px;
     background-color: rgba(23, 23, 23);
 }
+
+@media screen and (max-width: 900px) {
+    body {
+        width:100%;
+    }
+    nav {
+    font-size: 14px;
+    width:100%;
+    }
+    
+    nav a {
+      margin-left: 20px;
+      margin-right: 20px;
+    }
+
+    .img-project1 {
+        display: none;
+    }
+
+    .project {
+        margin: 0;
+        width: 80%;
+    }
+}
